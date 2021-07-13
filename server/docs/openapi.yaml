@@ -1,0 +1,33 @@
+openapi: 3.0.0
+info:
+  description: >-
+    Skeleton app
+  version: 1.0.0
+  title: Skeleton app
+tags:
+  - name: HelloWorld
+    description: Hello World
+paths:
+  /helloworld:
+    get:
+      tags:
+        - HellowWorld
+      operationId: test
+      summary: Return hello world
+      responses:
+        '200':
+          description: 200 response
+components:
+  schemas:
+    Test:
+      type: object
+      properties:
+        _id:
+          type: string
+        name:
+          type: string
+          description: Name of the test object
+          
+servers:
+  - url: 'localhost:3001/api'
+    variables: {}

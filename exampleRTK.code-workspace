@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+    "settings": {
+		"terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"],
+        "typescript.validate.enable": false,
+	    "eslint.runtime": "C:\\Program Files\\nodejs\\node.exe",
+        "vim.handleKeys": {
+            "<C-a>": false,
+            "<C-c>": false,
+            "<C-v>": false,
+            "<C-r>": false,
+            "<C-f>": false,
+            "<tab>": false
+        },
+        "vim.useSystemClipboard": true
+    }
+}

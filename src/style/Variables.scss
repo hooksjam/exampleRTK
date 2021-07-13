@@ -1,0 +1,59 @@
+$button-margin:10px;//2.5px;
+$button-padding:10px;
+$button-radius:25px;
+$button-font-size:15px;
+$button-font-weight:600;
+$button-height:30px;
+$button-font-size-large:25px;
+$button-height-large:50px;
+$button-height-small:20px;
+
+$hover-opacity:0.8;
+
+$hover-z:500;
+$focus-z:800;
+$options-z:850;
+$content-z:900;
+$prompt-z:1000;
+$notifications-z:1500;
+$menu-z:900;
+
+$anim-time:200ms;
+
+$star-size:30px;
+
+:root {
+    --primary-black: #fff;
+    --primary-darkest: #eee;
+    --primary-darker: #ddd;
+    --primary-dark: #ccc;
+    --primary-mid-hover: #999;
+    --primary-mid: #555;
+    --primary-light: #444;
+    --primary-white: #222;
+
+    --secondary-dark: #135f48;
+    --secondary-mid: #1b8465;
+    --secondary-light: #22a37d;
+    --confirm: #22a34d;
+    --confirm-hover: #55d979;
+    --error: #dd0000;
+    --star:#ffffff;
+}
+$primary-black: #fff;
+$primary-darkest: #eee;
+$primary-darker: #ddd;
+$primary-dark: #ccc;
+$primary-mid-hover: #999;
+$primary-mid: #555;
+$primary-light: #444;
+$primary-white: #222;
+
+
+$secondary-dark: #135f48;
+$secondary-mid: #1b8465;
+$secondary-light: #22a37d;
+$confirm: #22a34d;
+$confirm-hover: #55d979;
+$error: #dd0000;
+$star:#ffffff;

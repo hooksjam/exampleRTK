@@ -1,0 +1,91 @@
+.slideInX {
+    animation:slideInX ease-in-out $anim-time;
+}
+.slideInY {
+    animation:slideInY ease-in-out $anim-time;
+}
+.slideInYCenter {
+    animation:slideInYCenter ease-in-out $anim-time;
+}
+
+.slideInYMiddle {
+    animation:slideInYMiddle ease-in-out $anim-time;
+}
+
+
+@keyframes slideInX {
+    0% { transform: translateX(-100%); opacity: 0; }
+    100% { transform: translateX(0%); opacity: 1;}
+} 
+
+@keyframes slideInY {
+    0% { transform: translateY(10%); opacity: 0; }
+    100% { transform: translateY(0%); opacity: 1;}
+}
+
+@keyframes slideInYCenter {
+    0% { transform: translate(-50%, -10%); opacity: 0; }
+    100% { transform: translate(-50%, 0%); opacity: 1;}
+}
+
+@keyframes slideInYMiddle {
+    0% { transform: translate(-50%, -40%); opacity: 0; }
+    100% { transform: translate(-50%, -50%); opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1;}
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0;}
+}
+
+.fadeIn {
+    animation:fadeIn ease-in-out $anim-time;
+}
+.fadeOut {
+    animation:fadeOut ease-in-out $anim-time;
+}
+
+@keyframes blackIn {
+    0% { background-color: rgba(0,0,0,0); }
+    100% { background-color: rgba(0,0,0,1); }
+}
+@keyframes blackOut {
+    0% { background-color: rgba(0,0,0,1); }
+    100% { background-color: rgba(0,0,0,0); }
+}
+
+.fade-opacity {
+    transition: opacity ease-in-out $anim-time;
+}
+
+.hover-opacity {
+    transition: opacity ease-in-out $anim-time;
+    opacity:0;
+    &:hover {
+        opacity:1;
+    }
+}
+
+@keyframes promptIn {
+    0% { opacity: 0; transform:scale(0.5);}
+    100% { opacity: 1; transform:scale(1);}
+}
+
+@keyframes promptOut {
+    0% { opacity: 1; transform:scale(1);}
+    100% { opacity: 0; transform:scale(0.5);}
+}
+
+.promptIn {
+    animation:promptIn ease-in-out $anim-time;
+}
+.promptOut {
+    animation:promptOut ease-in-out $anim-time;
+}
+
+
